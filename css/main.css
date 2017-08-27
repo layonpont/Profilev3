@@ -1,81 +1,121 @@
+/* Global*/
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    background-color: #fff;
-    line-height: 34px;
-    font-size: 14px;
-    color: #191919;
-    font-family: "Poppins",Helvetica,Arial,sans-serif;
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
-/* div nav a img {
-    height: 500;
-} */
+.bottom-text {
+    margin-bottom: 15%;
+}
 
-.navbar-nav {
-    margin-top: 25px;
+
+.main-nav {
+    list-style: none;
     float: right;
-    font-weight: 900;
 }
 
- .nav-item {
-    position: relative;
-    padding: 6px 12px;
-    z-index: 1;
-    letter-spacing: 3px;
-    line-height: 14px;
-    font-weight: 700;
-    font-size: 11px;
-    font-style: normal;
-    font-family: "Poppins",Helvetica,Arial,sans-serif;
-    color:black;
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
 }
 
-
-
-.main-header-text {
-    
-    font-family: "Poppins",Helvetica,Arial,sans-serif;
+.main-nav li a {
+    text-decoration: none;
     color: black;
-    letter-spacing: -3px;
-    margin-bottom: 35px;
-    margin-top: 0;
+}
+
+.development-process {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../img/laptop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     
     
 }
 
-.jumbotron .main-header-text {
-    font-weight: 700;
-    font-size: 90px;
-    line-height: 95px;
-    font-style: normal;
-    margin: .67em 0;
+.development-process h1 {
+    color: #ffffff;
+    margin-top: 15%;
     
 }
 
-.main {
-    padding-top: 160px;
-    padding-bottom: 160px;
-    position: relative;
+.development-process p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
 }
 
-.main-subheader-text {
-    font-family: "Poppins",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    line-height: 36px;
-    color: #6b6b6b;
-    margin-top: 0;
-    font-style: normal;
-    font-weight: 300;
+.front-end {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.08)),url("../img/lights.jpg");
+    background-position: center;
+    background-size: cover;
+    
 }
 
-.jumbotron .main-subheader-text{
-    font-weight: 300;
+.front-end h1 {
+    color: #ffffff;
+    margin-top: 15%;
 }
 
-h2 {
-    display: block;
-    font-weight: 300;
+.front-end p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
 }
+
+.latest-technology {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/palmtrees.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.latest-technology h1 {
+    color: #ffffff;
+    margin-top: 15%;
+}
+
+.latest-technology p {
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.inspiration {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/neon.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.inspiration h1 {
+    color: #ffffff;
+    margin-top: 5%;
+
+}
+
+.inspiration h3 {
+    color: #ffffff;
+    line-height: 40px;
+    
+}
+
+.inspiration h5 {
+    color: #ffffff;
+    
+}
+
+footer li {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer i {
+    color: blue;
+}
+
