@@ -18,7 +18,7 @@
                 <ul class="main-nav">
                     <li><a href="../about.php">ABOUT</a></li>
                     <li><a href="../portfolio.php">PORTFOLIO</a></li>
-                    <li><a href="../Ton1.php">RESUME</a></li>
+                    <li><a href="../Ton1.pdf">RESUME</a></li>
                     <li><a href="../contact.php">CONTACT</a></li>
                 </ul>
             </div>
