@@ -16,11 +16,11 @@
             <div class="container">
             <div class="nav">
                 <div class="logo">
-                   <a href="index.html"><img src="img/LOGOTEXT33.png" width="300" height="70px"></a>
+                   <a href="index.php"><img src="img/LOGOTEXT33.png" width="300" height="70px"></a>
                 </div>
                 <ul class="main-nav">
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
+                    <li><a href="portfolio.php">PORTFOLIO</a></li>
                     <li><a href="Ton1.pdf">RESUME</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                     
