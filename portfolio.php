@@ -29,24 +29,24 @@
                 <div class="row pics">
                     <div class="col-md-6">
                         <div class="banner">
-                            <a href="x-portfolio/joicefoods.html"><img src="img/peachdish.png" height="320px"></a>
+                            <a href="x-portfolio/joicefoods.php"><img src="img/peachdish.png" height="320px"></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="banner">
-                            <a href="x-portfolio/joicefoods.html"><img src="img/joicefoods.PNG" height="320px"></a>
+                            <a href="x-portfolio/joicefoods.php"><img src="img/joicefoods.PNG" height="320px"></a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="banner">
-                            <a href="x-portfolio/joicefoods.html"><img src="img/ironproject.png" height="320px"></a>
+                            <a href="x-portfolio/joicefoods.php"><img src="img/ironproject.png" height="320px"></a>
                         </div>
                     </div>
                 <div class="col-md-6">
                         <div class="banner">
-                            <a href="x-portfolio/joicefoods.html"><img src="img/jade.PNG" height="320px"></a>
+                            <a href="x-portfolio/joicefoods.php"><img src="img/jade.PNG" height="320px"></a>
                         </div>
                     </div>
                 </div>
