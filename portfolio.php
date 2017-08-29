@@ -18,7 +18,7 @@
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="portfolio.html">PORTFOLIO</a></li>
                     <li><a href="Ton1.pdf">RESUME</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                 </ul>
             </div>
         </div>
