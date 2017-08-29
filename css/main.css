@@ -204,24 +204,135 @@ footer i:hover {
     transition: all ease-in 0.10s;
 }
 
+/* About Me Page */
+.about-me {
+    background-color: #f2f2f2;
+    
+}
+
+.about-me img {
+    width: 100%;
+    margin-top: 15%;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+}
+
+.about-me h1 {
+    margin-top: 50%;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+    
+}
+
+.about-me h3{
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-me h2 {
+    margin-top: 30%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about-me p {
+    font-size: 25px;
+    line-height: 1.7;
+    margin-top: 5%;
+}
+
+.about-me button {
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
 /*Portfolio Page*/
 .portfolio {
     background-color: #f2f2f2;
 }
 
-.portfolio img {
+
+
+/* .portfolio img {
     width: 100%;
     margin: 0;
     overflow: hidden;
     border: 7px solid #ffffff;
     margin-top: 15%;
-    position: relative
+    position: relative;
+    background-size: cover;
+
+} */
+
+.banner a {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    border: 7px solid #ffffff;
+    margin-top: 15%;
+    position: relative;
+    background-size: cover;
+    display: block;
+
 }
+
+.banner a::before {
+    position: absolute;
+    content: "";
+    background: #000 none repeat scroll;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    transition: all .5s ease 0s;
+    transform: scaleX(0);
+}
+
+.banner:hover a::before {
+    transform: scaleX(1);
+}
+
+.banner a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\f0c1";
+    font-family: fontawesome;
+    height: 60px;
+    width: 60px;
+
+    background: #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all .5s ease 0s;
+    transform: scale(3);
+    opacity: 0;
+
+}
+
+.banner:hover a::after {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
 
 .portfolio img:hover {
   
     
     
+}
+
+
+
+.portfolio .pics {
+    margin-top: 10%;
 }
 
 .portfolio .last-pic {
@@ -308,9 +419,39 @@ footer i:hover {
     transition: all 0.15s linear;
 }
 
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
 @media only screen and (max-width: 1200px) {
     .main-project .btn {
         padding: 10px 90px;
         margin-left:15%;
     }
+}
+
+/* #line-graph {
+    border-bottom: 2px solid #000000;
+    width: 50%;
+}
+
+#line-graph:hover {
+    width: 80%;
+    transition-delay: 0.7s;
+    transition-duration: 0.5s;
+} */
+
+.chart {
+    background-color: #60e0a0;
+    width: 100%;
+}
+
+.skill {
+    margin-top: 20%;
+    /* background-color: black; */
+    margin-bottom: 15%;
 }
