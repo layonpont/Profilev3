@@ -30,6 +30,12 @@ body {
 .main-nav {
     list-style: none;
     float: right;
+    
+}
+
+.nav-div {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+   
 }
 
 .main-nav li {
@@ -204,44 +210,126 @@ footer i:hover {
     transition: all ease-in 0.10s;
 }
 
+
 /* About Me Page */
 .about-me {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     
 }
 
-.about-me img {
-    width: 100%;
-    margin-top: 15%;
-    border: 10px solid #ffffff;
-    border-radius: 50%;
+.about-me #page-title {
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+    color: #000;
 }
 
 .about-me h1 {
-    margin-top: 50%;
-    font-size: 70px;
+    margin-top: 15%;
+    font-size: 65px;
     font-weight: bold;
-    font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+    font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+    color: #000;
     
 }
 
-.about-me h3{
+.about-me h3 {
+    font-weight: 600;
+    color: #000;
+    line-height: 1.2;
+    font-size: 24px;
+    font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+    margin-bottom: 2%;
+}
+
+.about-me img {
+    /* width: 100%; */
+    margin-top: 5%;
+    margin-left: 37%;
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    /* border-radius: 50%; */
+}
+
+
+.about-me #name-title {
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.about-me .aboutme-div {
+    border-bottom: 1px solid #000;
+    bottom: 10%;
+}
+
+.skill {
+    margin-top: 20%;
+    /* background-color: black; */
+    margin-bottom: 8%;
+}
+
+
+
+.about-me #hireme-title {
+    margin-top: 15%;
+}
+
+.about-me .hireme-div{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+/* .about-me h3{
     margin-top: 10%;
     font-size: 30px;
     font-weight: bold;
-}
+} */
 
 .about-me h2 {
-    margin-top: 30%;
+    margin-top: 5%;
     font-weight: bold;
-    font-size: 30px;
+    line-height: 1.2;
+    font-size: 65px;
+    font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+    color: #000;
+}
+
+.about-me .secret-h2 {
+    font-size: 24px;
+   
 }
 
 .about-me p {
-    font-size: 25px;
-    line-height: 1.7;
-    margin-top: 5%;
+    font-size: 18px;
+    line-height: 1.6;
+     margin-bottom: 4%; 
+    color: #000;
+    font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+    
+    
 }
+
+.about-me #hireme-top {
+    font-size: 16.5px;
+    color:#666;
+    margin-bottom: 5%;
+}
+
+.about-me #aboutme-text {
+    color: black;
+    
+}
+
+/* .about-me #aboutme-text::after {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 40%;
+    border-bottom: 2px solid #000;
+    bottom: 10%;
+} */
 
 .about-me button {
     font-size: 35px;
@@ -339,6 +427,7 @@ footer i:hover {
     margin-bottom: 15%;
 }
 
+/* Projects Section */
 .main-project {
     background-color: #f2f2f2;
 }
@@ -434,24 +523,23 @@ footer i:hover {
     }
 }
 
-/* #line-graph {
-    border-bottom: 2px solid #000000;
-    width: 50%;
-}
-
-#line-graph:hover {
-    width: 80%;
-    transition-delay: 0.7s;
-    transition-duration: 0.5s;
-} */
-
-.chart {
-    background-color: #60e0a0;
-    width: 100%;
-}
-
-.skill {
+/* Contact Page */
+#contact h1 {
+    font-size: 65px;
+    font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+    line-height: 1.2;
+    color: #000;
+    font-weight: bold;
     margin-top: 20%;
-    /* background-color: black; */
+    margin-bottom: 8%;
+}
+
+.contact-footer {
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+form {
     margin-bottom: 15%;
 }
+
+

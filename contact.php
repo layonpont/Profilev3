@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
          <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
          
 
         <title>Sulton E. Portfolio</title>
@@ -14,25 +14,30 @@
     </head>
     <body>
         
-        <header>
-            <div class="row">
-                <div class="logo">
-                    <a href="index.php"><img src="img/LOGOTEXT33.png" width="300" height="70px"></a>
+        <div class="header">
+            <div class="nav-div">
+                <div class="container">
+                    <div class="nav">
+                        <div class="logo">
+                            <a href="index.php"><img src="img/LOGOTEXT33.png" width="300" height="70px"></a>
+                        </div>
+                        <ul class="main-nav">
+                            <li><a href="about.php">ABOUT</a></li>
+                            <li><a href="portfolio.php">PORTFOLIO</a></li>
+                            <li><a href="Ton1.pdf">RESUME</a></li>
+                            <li><a href="contact.php">CONTACT</a></li>
+                            
+                        </ul>
+                    </div>
                 </div>
-                <ul class="main-nav">
-                    <li><a href="about.php">ABOUT</a></li>
-                    <li><a href="portfolio.php">PORTFOLIO</a></li>
-                    <li><a href="Ton1.pdf">RESUME</a></li>
-                    <li><a href="contact.php">CONTACT</a></li>
-                </ul>
             </div>
-        </header>
+        </div>
         <section id="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3"></div>
-                        <h1>Contact Form</h1> 
-                        <p>Send A Message Below</p>
+                    
+                        <h1 class="text-center">SEND ME AN EMAIL</h1> 
+                        
                         <form id="my_form" onsubmit="submitForm(); return false;">
                             <div class="form-group">
                                 <input id="n" type="text" name="name" class="form-control" placeholder="Name">
@@ -52,18 +57,20 @@
                                 <p><input id="mybtn" type="submit" name="submit" value="send message" class="btn btn-secondary"><span id="status"></span></p>
                             </div>
                        </form>
+                       
                     </div>
             </div>
 
         </section>
-        <footer>
+        <footer class="contact-footer">
             <p class="text-center">CREATED BY SULTON ELHADI 2017</p>
             <ul class="text-center">
-                <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                <li><a href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-                <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                <li><a href=""><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/sulton.elhadi"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/elhadi_sulton"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://plus.google.com/100255194086427246901"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/sulton-elhadi-161078107"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/layonpont"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                
             </ul>
         </footer>
         

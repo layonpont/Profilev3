@@ -48,11 +48,12 @@
         <footer>
             <p class="text-center">CREATED BY SULTON ELHADI 2017</p>
             <ul class="text-center">
-                <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                <li><a href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-                <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                <li><a href=""><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/sulton.elhadi"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/elhadi_sulton"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://plus.google.com/100255194086427246901"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/sulton-elhadi-161078107"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/layonpont"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                
             </ul>
         </footer>
         
