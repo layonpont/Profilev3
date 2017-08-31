@@ -29,28 +29,42 @@
                 <div class="row pics">
                     <div class="col-md-6">
                         <div class="banner">
-                            <a href="x-portfolio/joicefoods.php"><img src="img/peachdish.png" height="320px"></a>
+                            <a href="x-portfolio/peachdish.php"><img src="img/peachdish.png" height="320px"></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="banner">
-                            <a href="x-portfolio/joicefoods.php"><img src="img/joicefoods.PNG" height="320px"></a>
+                            <a href="x-portfolio/portfolioV1.php"><img src="img/portfolioV1.PNG" height="320px"></a>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="banner">
-                            <a href="x-portfolio/joicefoods.php"><img src="img/ironproject.png" height="320px"></a>
+                            <a href="x-portfolio/note-organizer.php"><img src="img/ironproject.png" height="320px"></a>
                         </div>
                     </div>
                 <div class="col-md-6">
                         <div class="banner">
-                            <a href="x-portfolio/joicefoods.php"><img src="img/jade.PNG" height="320px"></a>
+                            <a href="x-portfolio/joicefoods.php"><img src="img/joicefoods.PNG" height="320px"></a>
+                            
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                    <div class="col-md-6">
+                        <div class="banner">
+                            <a href="x-portfolio/jade.php"><img src="img/jade.PNG" height="320px"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="banner">
+                            
+                        </div>
+                    </div>
+                </div>
        </section>
         <footer>
             <p class="text-center">CREATED BY SULTON ELHADI 2017</p>

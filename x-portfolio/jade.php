@@ -29,15 +29,14 @@
        <section class="main-project">
            <div class="container">
                <div class="project-title">
-                    <h1 class="text-center">JoiceFoods</h1>
+                    <h1 class="text-center">Jade Web Design</h1>
                 </div>
-                <img src="../img/joicefoods.PNG" width="200px">
+                <img src="../img/jade.PNG" width="200px">
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
-                        <p>
-                            This is a landing page I created from scratch in my free time. I used HTML5 and CSS3 to build the website
-                            and the animations. I also made the site Responsive using CSS3.
+                        <p class="text-center">
+                            This is a simple Website I built using HTML and CSS. I also made it Responsive using CSS3.
                         </p>
                     </div>
                     <div class="col-md-1"></div>
@@ -46,7 +45,7 @@
                 
            </div>
            <h2 class="text-center">See It Live</h2>
-            <a href="https://github.com/layonpont/JoiceFoods"><button type="button" class="btn btn-success">LAUNCH PROJECT</button></a>
+            <a href="https://github.com/layonpont/JadeWebDesign"><button type="button" class="btn btn-success">LAUNCH PROJECT</button></a>
 
                 
        </section>

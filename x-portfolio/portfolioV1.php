@@ -29,15 +29,16 @@
        <section class="main-project">
            <div class="container">
                <div class="project-title">
-                    <h1 class="text-center">JoiceFoods</h1>
+                    <h1 class="text-center">Portfolio Site V2</h1>
                 </div>
-                <img src="../img/joicefoods.PNG" width="200px">
+                <img src="../img/portfolioV1.PNG" width="200px">
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <p>
-                            This is a landing page I created from scratch in my free time. I used HTML5 and CSS3 to build the website
-                            and the animations. I also made the site Responsive using CSS3.
+                            This is my Portfolio site I crafted from scratch with love. I used HTML5, CSS3, and Javascript to build the website.
+                            I used the Bootstrap framework to make the website Responsive across all devices and I also used PHP to give my Contact Page Functionality.
+                            I used Heroku to deploy it.
                         </p>
                     </div>
                     <div class="col-md-1"></div>
@@ -46,7 +47,7 @@
                 
            </div>
            <h2 class="text-center">See It Live</h2>
-            <a href="https://github.com/layonpont/JoiceFoods"><button type="button" class="btn btn-success">LAUNCH PROJECT</button></a>
+            <a href="https://github.com/layonpont/Profilev3"><button type="button" class="btn btn-success">LAUNCH PROJECT</button></a>
 
                 
        </section>

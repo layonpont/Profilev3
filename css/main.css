@@ -26,6 +26,8 @@ body {
     z-index: 100;
 }
 
+
+
 /* Navbar */
 .main-nav {
     list-style: none;
@@ -47,6 +49,7 @@ body {
     letter-spacing: 1px;
     font-size: 12px;
     margin-bottom: 10px;
+    
     
 
 }
@@ -411,8 +414,8 @@ footer i:hover {
 
 
 
-.portfolio img:hover {
-  
+.portfolio img {
+  width: 100%;
     
     
 }
@@ -433,7 +436,7 @@ footer i:hover {
 }
 
 .main-project h1 {
-    margin-top: 5%;
+    margin-top: 20%;
     font-size: 70px;
     font-weight: bold;
     font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
@@ -441,20 +444,24 @@ footer i:hover {
     font-weight: 700px;
     color: #000000;
     letter-spacing: 0;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     /* position: relative; */
 }
 
-.main-project h1:after {
+ .main-project .project-title {
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+ }
+
+/* .main-project h1:after {
     content: "";
     position: absolute;
     width: 20%;
     height: 1px;
     bottom: 0;
     left: 40%;
-    border-bottom: 2px solid #60e0a0;
+    
     bottom: 56%;
-}
+} */
 .main-project h2 {
     margin-top: 5%;
     font-size: 65px;
@@ -471,7 +478,7 @@ footer i:hover {
     overflow: hidden;
     width: 90%;
     border: 10px solid #ffffff;
-    margin-top: 15px;
+    margin-top: 10%;
     margin-left: 5%;
 }
 

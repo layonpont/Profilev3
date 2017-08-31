@@ -29,15 +29,18 @@
        <section class="main-project">
            <div class="container">
                <div class="project-title">
-                    <h1 class="text-center">JoiceFoods</h1>
+                    <h1 class="text-center">Peachdish</h1>
                 </div>
-                <img src="../img/joicefoods.PNG" width="200px">
+                <img src="../img/peachdish.PNG" width="200px">
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <p>
-                            This is a landing page I created from scratch in my free time. I used HTML5 and CSS3 to build the website
-                            and the animations. I also made the site Responsive using CSS3.
+                            I Worked for a Start-up called PeachDish based in Atlanta. I worked on various front-end tasks for their website and created 
+                            various landing pages using
+                            HTML5, CSS3, Bootstrap, and JavaScript. I also was the lead intern of their digital Marketing and
+                            Analytics team and learned to use technologies such as Google Adwords, Google Analytics, Google Tag
+                            Manager, and Facebook Ads. 
                         </p>
                     </div>
                     <div class="col-md-1"></div>
@@ -46,7 +49,7 @@
                 
            </div>
            <h2 class="text-center">See It Live</h2>
-            <a href="https://github.com/layonpont/JoiceFoods"><button type="button" class="btn btn-success">LAUNCH PROJECT</button></a>
+            <a href="https://www.peachdish.com/fitness"><button type="button" class="btn btn-success">LAUNCH PROJECT</button></a>
 
                 
        </section>

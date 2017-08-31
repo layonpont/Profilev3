@@ -29,15 +29,18 @@
        <section class="main-project">
            <div class="container">
                <div class="project-title">
-                    <h1 class="text-center">JoiceFoods</h1>
+                    <h1 class="text-center">Note Organizer</h1>
                 </div>
-                <img src="../img/joicefoods.PNG" width="200px">
+                <img src="../img/ironproject.PNG" width="200px">
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <p>
-                            This is a landing page I created from scratch in my free time. I used HTML5 and CSS3 to build the website
-                            and the animations. I also made the site Responsive using CSS3.
+                            This was a group demo project me and some friends built with Java that allows students to easily keep track of notes, past assignments, and
+                            personal Github accounts.
+                            I worked as a back-end dev on this web-app. My role was to utilized Test Driven Development principles to create more cohesive classes and methods
+                            with JUnit. I was also in charge of creating the Repositories and building the database using PostgreSQL.
+                            
                         </p>
                     </div>
                     <div class="col-md-1"></div>
@@ -46,7 +49,7 @@
                 
            </div>
            <h2 class="text-center">See It Live</h2>
-            <a href="https://github.com/layonpont/JoiceFoods"><button type="button" class="btn btn-success">LAUNCH PROJECT</button></a>
+            <a href="https://lecture-organizer.herokuapp.com/"><button type="button" class="btn btn-success">LAUNCH PROJECT</button></a>
 
                 
        </section>
